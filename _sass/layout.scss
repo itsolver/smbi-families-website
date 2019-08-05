@@ -11,7 +11,7 @@
 	}
 }
 
-header {
+header {don
 	padding-bottom: 50px;
 
 	@media #{$desktop} {
@@ -50,8 +50,10 @@ header, nav {
 	}
 }
 
-.donate {
+.survey {
+    .button {
 	text-align: center;
+    }
 }
 
 nav .button {

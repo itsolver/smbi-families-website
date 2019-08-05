@@ -2,6 +2,8 @@
 layout: default
 title: SMBI Families
 ---
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
 
 <header>
 	<div class="container">
@@ -123,20 +125,7 @@ title: SMBI Families
 		<h2 class="editable">
 			Updates
 		</h2>
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
-		<div class="posts">
-			{% for post in site.posts %}
-				<div class="post">
-					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
-					<div class="post-content">
-						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
-						<h3>{{ post.title }}</h3>
-
-						{{ post.content }}
-						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
-					</div>
-				</div>
-			{% endfor %}
+		<div class="fb-page" data-href="https://www.facebook.com/Smbifamilieswearelistening/" data-tabs="timeline, events" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Smbifamilieswearelistening/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Smbifamilieswearelistening/">SMBI Families we are listening</a></blockquote>
 		</div>
 	</div>
 </div>

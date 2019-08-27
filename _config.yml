@@ -75,3 +75,7 @@ _options:
   newsletter_background_image:
     width: 1880
     height: 1880
+    
+_editable_regions:
+  image:
+    url_src: true
